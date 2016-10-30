@@ -1,0 +1,160 @@
+
+@import url('https://fonts.googleapis.com/css?family=Libre+Baskerville|Lobster|Roboto');
+body {
+ padding: 0;
+ margin: 0;
+ width: 100%;
+ background-color: #f8f8f3;
+ padding-top: 30px;
+}
+
+.container {
+ min-width: 1170px;
+ max-width: 1170px;
+ padding: 0;
+ margin: 0 auto;
+}
+
+.clearfix {
+	overflow: auto;
+}
+
+.top-line {
+ display: block;
+ margin: 0;
+ padding: 0;
+ width: 100%
+}
+
+span.logo {
+ text-transform: uppercase;
+ color: #fff;
+ font-size: 32px;
+ text-align: center;
+ line-height: 60px;
+ display: block;
+ width: 180px;
+ height: 60px;
+ background-color: #bf3a16;
+}
+
+.top-line {
+ display: block;
+ position: relative;
+ width: 100%;
+}
+
+.top-line-left,
+.top-line-right {
+ display: inline-block;
+}
+
+.top-line-right {
+ margin-left: 732px;
+ font-size: 18px;
+ color: #000;
+}
+.top-line-right span {
+ font-size: 18px;
+ color: #792913;
+}
+
+
+*, *::after, *::before { 
+-webkit-box-sizing: border-box; 
+-moz-box-sizing: border-box; 
+-o-box-sizing: border-box; 
+-ms-box-sizing: border-box; 
+box-sizing: border-box; 
+margin: 0; 
+padding: 0; 
+} 
+#mainmenu { 
+background: #444; 
+position: relative; 
+overflow:hidden; 
+height:40px; 
+margin:30px 0 
+} 
+#mainmenu ul { 
+list-style:none; 
+margin:0; 
+padding:0; 
+position: relative; 
+left:50%; 
+float:left; 
+font:14px Arial, Helvetica, sans-serif; 
+height:40px 
+} 
+#mainmenu ul li { 
+position:relative; 
+left:-50%; 
+float:left; 
+margin:0 10px; 
+height:40px 
+} 
+#mainmenu ul li a { 
+color: #fff; 
+display:block; 
+text-decoration:none; 
+padding:0 15px; 
+line-height: 40px; 
+} 
+#mainmenu ul li a:hover { 
+background-color:#666; 
+}
+	
+
+.banner-descr {
+	float: left;
+	margin: 50px 130px 0px 130px;
+
+}
+
+.banner-descr h1 {
+	font-family: 'Libre Baskerville', serif;
+	font-size: 70px;
+	margin: 0;
+	line-height: 55px;
+	padding-left: 10px;
+}
+
+
+.banner-descr h1 span {
+	color: #bf3a16;
+	padding-left: 80px;
+		
+}
+
+.first-text {
+	font-family: 'Libre Baskerville', serif;
+	font-size: 26px;
+	color: #9e6756;
+	font-style: italic;
+	line-height: 55px;
+
+}
+
+.last-text {
+	font-family: 'Libre Baskerville', serif;
+	font-size: 24px;
+	line-height: 55px;
+	padding-left: 95px;
+}
+
+.items {
+	background-color: #ebe9d8;
+
+}
+
+.item {
+	padding: 10px;
+	width: 390px;
+	float: left;
+}
+
+
+
+
+
+
